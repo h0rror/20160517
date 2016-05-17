@@ -12,5 +12,37 @@ namespace ConsoleApplication1
         {
 
         }
+        public static int addXandY(int firstNumber, int secondNumber)
+        {
+            int result = 0;
+            result = firstNumber + secondNumber;
+            return result;
+        }
+        public static int addYtoX(ref int X, ref int Y)
+        {
+            X +=
+        }
+        public static string[] readUntilEnd()
+        {
+            string{}inputs = new string[100];
+            int inputcounter = 0;
+          
+
+            do
+            {
+                inputs[inputCounter] = Console.ReadLine();
+                if (inputs[inputcounter]) == "end")
+                    {
+                    inputcounter = -1;
+
+                }
+
+
+            } while (true);
+
+            return inputs;
+
+
+        }
     }
 }
